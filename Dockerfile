@@ -1,4 +1,4 @@
-FROM osrm/osrm-backend:v5.22.0
+FROM osrm/osrm-backend:latest
 ENV MAP belarus-latest
 
 ADD http://download.geofabrik.de/europe/${MAP}.osm.pbf /data/${MAP}.osm.pbf
